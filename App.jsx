@@ -585,7 +585,7 @@ export default function App() {
     const checkUrl = `${INITIAL_URL}${URL_IDENTIFAIRE}`;
     //console.log('checkUrl==========+>', checkUrl);
 
-    const targetData = new Date('2025-08-10T08:08:00'); //дата з якої поч працювати webView
+    const targetData = new Date('2025-08-23T08:08:00'); //дата з якої поч працювати webView
     const currentData = new Date(); //текущая дата
 
     if (!route) {
